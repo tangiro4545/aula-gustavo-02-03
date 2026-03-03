@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +7,12 @@
 main{
     width: 100%;
     height: 100vh;
-    background: #fff;
+    background: #ffffff;
 }
 #logo{
     width: 50%;
     height: 5vh;
-    background-color: yellow;
+    /* background-color: yellow; */
     background-image: url("../img/Nubank_logo.svg.png");
     background-repeat: no-repeat;
     background-size: 45%;
@@ -19,4 +20,54 @@ main{
     float: left;
     margin-left: 25%;
     margin-top: 3vh;
+}
+#imagem{
+    width: 80%;
+    height: auto;
+    /* background: red; */
+    margin-left: 10%;
+    float: left;
+    margin-top: 5vh;
+}
+#imagem img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-left: 15%;
+    margin-top: 8vh;
+    text-align: center;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-left: 15%;
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+}
+button{
+    width: 50%;
+    height: 6vh;
+    float: left;
+    margin-left: 25%;
+    margin-top: 10vh;
+    border: none;
+    background: #820Ad1;
+    color: #fff;
+    border-radius: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
 }
